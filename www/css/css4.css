@@ -1,0 +1,221 @@
+#slider {
+    width: 100%;
+    overflow: hidden;
+}
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    height: 305px;
+}
+.section {
+	background: white;
+	color: black;
+}
+body {
+	background: #F8F6F8;
+}
+.first {
+	height: 130px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	left: 250px;
+}
+.logo {
+	font-style: italic;
+	font-size: 70px;
+	font-weight: bold;
+	color: #28576E;
+	position: relative;
+	right: 208px;
+}
+.block {
+	margin-top: 60px;
+}
+form {
+	margin-left: 180px;
+}
+label {
+	margin-right: 5px;
+	color: #818184;
+	font-size: 15px;
+}
+.money {
+	border-radius: 0;
+	font-weight: bold;
+	height: 20px;
+	font-size: 13px;
+	padding: 0;
+}
+.navbar {
+	border-radius: 0;
+}
+/*navbar-nav {
+	width: 1300px;
+	margin-left: -100px;
+}*/
+ul {
+	width: 1200px;
+}
+.navbar-text {
+	/*font-weight: bold;*/
+	/*position: relative;*/
+	bottom: 13px;
+	/*right: 20px;*/
+}
+input {
+	width: 120px;
+	height: 20px;
+	font-size: 10px;
+	margin-top: 15px;
+	/*position: fixed;*/
+}
+.btn {
+	width: 70px;
+	height: 25px;
+	background: black;
+	border: none;
+	border-radius: 0;
+	color: white;
+	font-size: 11px;
+	margin-top: 13px;
+	margin-left: 5px;
+	/*position: fixed;*/
+}
+.options {
+	background: #2A627F;
+	color: white;
+	height: 50px;
+	margin-bottom: 1px;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 12px;
+}
+/*.menu {
+	margin-left: 55px;
+}*/
+.arrow {
+	width: 8px;
+	height: 8px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+/*.image {
+	width: 800px;
+}*/
+/*.main {
+	width: 100%;
+	height: 305px;
+}*/
+.brands, .new-products {
+	margin-top: 25px;
+	font-size: 12px;
+	color: #8ECAED;
+	margin-bottom: 25px;
+}
+.products {
+	border-radius: 0;
+	font-weight: bold;
+	height: 20px;
+	font-size: 13px;
+	padding: 0;
+	width: 200px;
+	margin-bottom: 20px;
+}
+.brands, .products, .bestsellers {
+	position: relative;
+	right: 15px;
+}
+.bestsellers {
+	font-size: 12px;
+	color: #8ECAED;
+	margin-bottom: 15px;
+}
+.best {
+	position: relative;
+	right: 10px;
+	font-size: 12px;
+	word-spacing: 3px;
+	margin-bottom: 15px;
+	color: #434143;
+}
+.telephones1, .telephones2, .telephones3, #telephones3 {
+	margin-left: 30px;
+	margin-top: -5px;
+}
+.phones {
+	margin-bottom: 20px;
+	padding: 5px;
+}
+.phones h6 {
+    font-size: 13px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.phoneimg {
+	width: 120px;
+	height: 140px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.details {
+	border: none;
+	background: #494749;
+	color: white;
+	width: 100px;
+	height: 35px;
+	margin-left: 30px;
+}
+.phones .text {
+	margin-left: 32px;
+}
+.load {
+	width: 130px;
+	height: 40px;
+	background: #83C6E2;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 170px;
+	margin-left: 350px;
+}
+.bottomclass {
+	margin-top: 30px;
+	margin-bottom: 5px;
+	margin-left: -20px;
+}
+.bottomtext {
+	font-size: 11px;
+	font-weight: bold;
+}
+.bottomtext:nth-child(1), 
+.bottomtext2:nth-child(2), .bottomtext2:nth-child(3) {
+    color: #68BBE0;
+}
+.bottomclass2 {
+	margin-bottom: 10px;
+	margin-left: -20px;
+}
+.bottomtext2 {
+	font-size: 14px;
+}
+/*.menu h5 {
+	color: #E7E2E5;
+	margin-left: 2px;
+}
+.image h6 {
+	color: #E7E2E5;
+	position: relative;
+	bottom: 6px;
+}*/

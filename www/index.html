@@ -25,7 +25,90 @@
   <body>
 
     <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Alize</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Семейный ресторан</div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Семейный ресторан
+<button class="btn btn-default top-btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<button class="btn btn-default top-btn" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign up</button></div>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="index.php" method="POST">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="project/alize.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+  </form>
+</div>
+<div id="id02" class="modal2">
+  
+  <form class="modal-content animate" action="registration.php" method="POST">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="fn"><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="fn" required>
+      <label for="sn"><b>Second Name</b></label>
+      <input type="text" placeholder="Enter Second Name" name="sn" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+        
+      <button type="submit">Sign up</button>
+     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+  </form>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+var modal2 = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+
+</script>
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
@@ -152,3 +235,14 @@
   </body>
 
 </html>
+<style type="text/css">
+  .btn-default {
+  background: #FFFAF0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  width: 180px;
+  border-color:   #90EE90;
+  color:  #696969;
+  float: right;
+
+</style>
